@@ -1,3 +1,5 @@
+#create a text file in the same directory as this file containing a list of webhook URLs
+#you wish to spam, there should be one URL per line
 def webhook_spam():
         url = []
         file = open("url.txt","r")
